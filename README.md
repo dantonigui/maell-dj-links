@@ -1,44 +1,32 @@
-# Maell J | Link in Bio
+# Maell J — Link in Bio
 
-Página de links do DJ e produtor Maell J, reunindo playlists, perfis e redes sociais em um único endereço.
+A responsive link page for DJ and producer Maell J, bringing music, social profiles, and contact links together.
 
-## Links
+## Highlights
 
-- Playlist Só o Molho! — Spotify
-- SoundCloud
-- TikTok
-- Instagram
+- Access to Spotify and SoundCloud.
+- Links to TikTok and Instagram.
+- A compact page designed for sharing from social media profiles.
 
-## Tecnologias
+## Built with
 
-- HTML5 e CSS3
-- Google Fonts (Sora + Open Sans)
+- HTML5 and CSS3
+- Google Fonts: Sora and Open Sans
 
-## Estrutura
+## Live site
+
+[maelljmusic.vercel.app](https://maelljmusic.vercel.app)
+
+## Run locally
+
+Open `index.html` in a browser. No build step is required.
+
+## Project structure
 
 ```
-/
+.
+├── images/
 ├── index.html
 ├── style.css
+└── README.md
 ```
-
-## Como rodar
-
-Abra o `index.html` no navegador. Não há dependências para instalar.
-
-## Adicionar novos links
-
-Insira um novo `<li>` dentro da `<ul class="list">` no `index.html`:
-
-```html
-<li class="list-item">
-  <a class="link" target="_blank" href="URL">
-    Nome da plataforma
-    <img src="/images/logo.png" alt="Plataforma">
-  </a>
-</li>
-```
-
----
-
-Desenvolvido por Guilherme D'antoni.
